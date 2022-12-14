@@ -48,12 +48,12 @@ set gdefault
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz
 nnoremap <silent> * *zz
-nnoremap <silent> # #zz
+nnoremap <silent> " #zz
 nnoremap <silent> g* g*zz
 
-# ===========================================
-# GUI
-# ===========================================
+" ===========================================
+" GUI
+" ===========================================
 
 if !has('gui_running')
 	set t_Co=256
@@ -85,9 +85,9 @@ set mouse=a
 " Show hidden chars
 set listchars=nbsp:¬,extends:»,precedes:«,trail:•
 
-# ===========================================
-# KEYBOARD 
-# ===========================================
+" ===========================================
+" KEYBOARD 
+" ===========================================
 
 " Disable arrow keys
 nnoremap <up> <nop>
@@ -120,11 +120,11 @@ nnoremap <leader>q g<c-g>
 " Leave paste mode 
 autocmd InsertLeave * set nopaste
 
-# ===========================================
-# PLUGINS 
-# ===========================================
+" ===========================================
+" PLUGINS 
+" ===========================================
 "set nocompatible
 "filetype off
-"call plug#being()
+"call plug"being()
 
-"call pulg#end()
+"call pulg"end()
