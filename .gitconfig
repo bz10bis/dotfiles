@@ -1,0 +1,32 @@
+[user]
+    user = Baptiste ZEGRE
+    email = baptistezegre@gmail.com
+
+[ui "color"]
+    color = always
+
+[color]
+    ui = true
+
+[core]
+    autocrlf = input
+    safecrlf = true
+
+[alias]
+    a =  git add -u
+    ly = log --all --decorate --oneline --graph
+    lg = log --oneline
+    last = log -1 HEAD
+    ci = commit -m
+    s = status
+    st = status
+    contributors = shortlog --sumary
+
+[pull]
+    ff = only
+
+[push]
+    default = simple
+
+[init]
+    defaultBranch = main
