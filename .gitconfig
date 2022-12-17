@@ -20,7 +20,7 @@
     ci = commit -m
     s = status
     st = status
-    contributors = shortlog --sumary
+    contributors = shortlog --summary
 
 [pull]
     ff = only

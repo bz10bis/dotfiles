@@ -17,6 +17,9 @@ filetype indent on
 set autoindent
 set cindent
 set formatoptions-=cro
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Better split
 set splitright
